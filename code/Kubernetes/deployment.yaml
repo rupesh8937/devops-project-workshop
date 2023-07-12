@@ -20,7 +20,7 @@ spec:
         image: valaxy01.jfrog.io/valaxy-docker/ttrend/2.0.2
         imagePullPolicy: Always
         ports:
-        - containerPort: 8000
+        - containerPort: 8080
         env:
         - name: CONSUMER_KEY
           value: "G6lmKhsi0V9TvXt6oKTfjRBCr"
